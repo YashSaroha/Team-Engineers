@@ -1,0 +1,197 @@
+.one-liner{
+    font-size: 28px;
+    color: #69678b;
+}
+
+.coHeads-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.heads{
+    display: flex;
+    margin: 0px 65px;
+    width: 37%;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    padding: 32px 20px;
+    /* max-width: 329px; */
+    display: flex;
+    background-color: #6C55F9;
+    color: white;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 4px;
+    box-shadow: 0 4px 16px rgb(100 95 136 / 16%);
+    transition: background-color 1s ,border 1s,box-shadow 1s;
+}
+
+.card1, .card2{
+    height: 70%;
+    padding: 10px;
+    margin: 10px;
+    width: 90%;
+}
+
+.card .header {
+    padding-bottom: 24px;
+}
+
+.card .header .title {
+    font-size: 30px;
+    display: block;
+    margin-top: 8px;
+    margin-bottom: 12px;
+    /*color: white;*/
+    font-family: 'Lora', serif;
+}
+
+.card .header h5 {
+    font-size: 15px;
+   /* color: white;*/
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.card .body {
+    padding-top: 24px;
+    padding-bottom: 8px;
+    border-top: 1px solid #DDDBEF;
+    border-bottom: 1px solid #DDDBEF;
+    font-weight: 500;
+}
+
+.card .footer {
+    padding-top: 24px;
+    font-size: 20px;
+    font-family: 'Lora', serif;
+}
+
+.cohead-image{
+    position: absolute;
+    left: 67%;
+}
+#yash{
+    height: 330px;
+    width: 120px;
+}
+
+#sandhya{
+    height: 330px;
+    width: 120px;
+}
+
+.card:hover
+{
+background-color: white;
+border: 0px solid #6C55F9;
+color:#6C55F9 !important;
+box-shadow: 0px 0px 7px 2px #222222 ;
+}
+
+
+
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+.team-heading{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.teamMembers-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
+    /* margin: 0px 155px; */
+}
+
+.team-members{
+    display: flex;
+    margin: 0px 65px;
+    width: 37%;
+    align-items: center;
+    justify-content: center;
+}
+
+.team {
+    /* padding: 0px 20px; */
+    /* max-width: 329px; */
+    display: flex;
+    background-color: rgb(246, 245, 247);
+    color: #6C55F9;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 4px;
+    box-shadow: 0 4px 16px rgb(100 95 136 / 16%);
+    transition: background-color 1s ,border 1s,box-shadow 1s;
+}
+.team1, .team2{
+    height: 70%;
+    padding: 10px;
+    margin: 10px;
+    width: 90%;
+}
+
+.team .header {
+    padding-bottom: 24px;
+}
+
+.team .header .title {
+    font-size: 30px;
+    display: block;
+    margin-top: 8px;
+    margin-bottom: 12px;
+    /*color: white;*/
+    font-family: 'Lora', serif;
+}
+
+.team .header h5 {
+    font-size: 15px;
+   /* color: white;*/
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.team .body {
+    padding-top: 24px;
+    padding-bottom: 8px;
+    border-top: 1px solid #6C55F9;
+    font-weight: 500;
+}
+
+.team:hover
+{
+background-color: #6C55F9;
+border: 0px solid white;
+color:white !important;
+box-shadow: 0px 0px 7px 2px #222222 ;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+.co{
+
+margin-left: -55px;
+}
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+.co{
+
+    margin-left: -55px;
+
+}
+}
